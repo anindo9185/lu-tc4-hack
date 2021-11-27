@@ -16,13 +16,13 @@
 	<div class="main-w3layouts wrapper">
 		<h1>Create New Account</h1>
 		<div class="main-agileinfo">
-			<div class="agileits-top">
+			<div class="agileits-top" id = "signup-form">
 				<form action="#" method="post">
-					<input class="text" type="text" name="Firstname" placeholder="Firstname" required="">
-                    <input class="text" type="text" name="Lastname" placeholder="Lastname" required="">
-					<input class="text email" type="email" name="email" placeholder="Email" required="">
-					<input class="text" type="password" name="password" placeholder="Password" required="">
-					<input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
+					<input class="text" type="text" name="First name" placeholder="Firstname" required="">
+                    <input class="text" type="text" name="Last name" placeholder="Lastname" required="">
+					<input id="signup-email" class="text email" type="email" name="email" placeholder="Email" required="">
+					<input id="signup-password" class="text" type="password" name="password" placeholder="Password" required="">
+					<input id="confirm-password" class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
 					<div class="wthree-text">
 						<label class="anim">
 							<input type="checkbox" class="checkbox" required="">
@@ -38,5 +38,7 @@
 		
 	</div>
 	<!-- //main -->
+<script src="bundle.js"></script>
+
 </body>
 </html>
